@@ -1,0 +1,68 @@
+=== Email Spam Classification Model Comparison ===
+
+--- Model Comparison (Sorted by F1 Score) ---
+Logistic Regression:
+  Accuracy: 0.9720
+  Precision: 0.9320
+  Recall: 0.9730
+  F1 Score: 0.9521
+
+K-Nearest Neighbors:
+  Accuracy: 0.9063
+  Precision: 0.7639
+  Recall: 0.9730
+  F1 Score: 0.8559
+
+Gaussian Naive Bayes:
+  Accuracy: 0.6986
+  Precision: 0.4675
+  Recall: 0.3885
+  F1 Score: 0.4244
+
+--- Detailed Model Results ---
+
+K-Nearest Neighbors:
+  Accuracy: 0.9063
+  Precision: 0.7639
+  Recall: 0.9730
+  F1 Score: 0.8559
+
+  Confusion Matrix:
+    [[650, 89]
+     [8, 288]]
+
+    True Negatives (TN): 650
+    False Positives (FP): 89
+    False Negatives (FN): 8
+    True Positives (TP): 288
+
+Gaussian Naive Bayes:
+  Accuracy: 0.6986
+  Precision: 0.4675
+  Recall: 0.3885
+  F1 Score: 0.4244
+
+  Confusion Matrix:
+    [[608, 131]
+     [181, 115]]
+
+    True Negatives (TN): 608
+    False Positives (FP): 131
+    False Negatives (FN): 181
+    True Positives (TP): 115
+
+Logistic Regression:
+  Accuracy: 0.9720
+  Precision: 0.9320
+  Recall: 0.9730
+  F1 Score: 0.9521
+
+  Confusion Matrix:
+    [[718, 21]
+     [8, 288]]
+
+    True Negatives (TN): 718
+    False Positives (FP): 21
+    False Negatives (FN): 8
+    True Positives (TP): 288
+
